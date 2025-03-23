@@ -1,7 +1,16 @@
 {
     "python.languageServer": "Pylance",
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "ruff.enable": true,
     "ruff.showSyntaxErrors": true,
+    "ruff.codeAction.fixViolation": {
+        "enable": true,
+    },
+    "ruff.fixAll": true,
+    "ruff.lint.enable": true,
+    "ruff.organizeImports": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
     "todo-tree.general.tags": [
         "BUG",
