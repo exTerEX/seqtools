@@ -1,0 +1,28 @@
+[project]
+name = "seqtools"
+authors = [{ name = "Andreas Solberg Sagen", email = "a.s.sagen@odont.uio.no" }]
+description = "A package and tools for working with biological sequence data."
+requires-python = ">=3.10"
+keywords = [] # TODO: Fill in descriptive keywords
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = ["numpy", "pandas", "biopython"] # TODO: Check minimum specs
+dynamic = ["version", "readme"]
+
+[build-system]
+requires = ["setuptools >= 61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["seqtools"]
+
+[tool.setuptools.dynamic]
+readme = { file = "README.md" }
+
+[tool.setuptools_scm]
