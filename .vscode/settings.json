@@ -1,0 +1,16 @@
+{
+    "python.languageServer": "Pylance",
+    "editor.formatOnSave": true,
+    "ruff.showSyntaxErrors": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "UNTESTED"
+    ],
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    }
+}
