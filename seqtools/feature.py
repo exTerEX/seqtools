@@ -38,8 +38,5 @@ def extract_exact_feature(
                 )
 
             return feature
-        else:
-            if verbose:
-                print("No feature in the given location")
 
-            return SeqFeature.SeqFeature()  # UNTESTED: Check if this work as intended
+    return SeqFeature.SeqFeature()  # UNTESTED: Check if this work as intended
