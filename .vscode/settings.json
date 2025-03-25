@@ -12,6 +12,14 @@
     "ruff.lint.enable": true,
     "ruff.organizeImports": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.egg-info": true,
+        "**/pyvenv.cfg": true,
+        "**/venv": true,
+        "**/include/python*": true,
+        "**/__pycache__": true
+    },
     "todo-tree.general.tags": [
         "BUG",
         "HACK",
